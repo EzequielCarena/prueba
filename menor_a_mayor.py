@@ -6,7 +6,7 @@ dato_uno = input("dime un numero")
 
 dato_dos = input("di otro numero")
 
-print("El Nummero mayor es:")
+prin    "El Nummero mayor es:")
 
 print(max(dato_uno, dato_dos))
 
