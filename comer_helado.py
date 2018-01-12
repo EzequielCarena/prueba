@@ -13,15 +13,49 @@ else:
     apetece_helado = False
 
 tiene_dinero_input = input("¿Tienes dinero para un helado (Si/No): ").upper()
+
+if tiene_dinero_input == "SI":
+    puedes_permitirtelo = True
+
+elif tiene_dinero_input == "NO":
+    puedes_permitirtelo = False
+
+else:
+    print("Te he dicho que me digas si o no, no se que me has dicho pero cuento como que no")
+    puedes_permitirtelo = False
+
+
 esta_el_senior_de_los_helados_input = input("¿Esta el señor de los helados? (Si/No): ").upper()
+
+if esta_el_senior_de_los_helados_input == "SI":
+    esta_el_senior_de_los_helados = True
+
+elif esta_el_senior_de_los_helados_input == "NO":
+    esta_el_senior_de_los_helados = False
+
+else:
+    print("Te he dicho que me digas si o no, no se que me has dicho pero cuento como que no")
+    esta_el_senior_de_los_helados = False
+
 esta_tu_tia_input = input("¿Estás con tu tía (Si/No): ").upper()
 
+if esta_tu_tia_input == "SI":
+    puedes_permitirtelo = True
+
+elif esta_tu_tia_input == "NO":
+    puedes_permitirtelo = False
+
+else:
+    print("Te he dicho que me digas si o no, no se que me has dicho pero cuento como que no")
+    puedes_permitirtelo = False
 
 
-puedes_permitirtelo = tiene_dinero_input == "Si" or esta_tu_tia_input == "SI"
-esta_el_senior_de_los_helados = esta_el_senior_de_los_helados_input == "SI"
+
+
 
 if apetece_helado and puedes_permitirtelo and esta_el_senior_de_los_helados:
     print("Pues comete un helado")
 else:
     print("Pues nada")
+
+
