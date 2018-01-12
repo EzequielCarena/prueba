@@ -51,11 +51,16 @@ else:
 
 
 
-
+#verdadero(True) * verdadero(True) = verdadero
+#falso(False) * verdadero(True) = verdadero
+#verdadero(True) * falso(False) = verdadero
+#falso(False) * falso(False) = falso
 
 if apetece_helado and puedes_permitirtelo and esta_el_senior_de_los_helados:
     print("Pues comete un helado")
 else:
     print("Pues nada")
+
+
 
 
